@@ -3,6 +3,7 @@ import { userContext } from '../context/context'
 import { Box,Input } from '@mui/material'
 
 const Search = () => {
+    // this is used from conext
     const {value,setValue} = useContext(userContext)
   return (
     <Box sx={{ width: '100%', maxWidth: 200,mx:'auto',mb:'30px' }}>
